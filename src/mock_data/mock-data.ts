@@ -1,0 +1,42 @@
+export const tokenMockData = {
+  address: 'DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263',
+  name: 'Bonk',
+  symbol: 'Bonk',
+  decimals: 5,
+  logoURI: 'https://arweave.net/hQiPZOsRZXGXBJd_82PhVdlM_hACsT_q6wqwf5cSY7I',
+  price: 0.000000084306,
+  lastTradeUnixTime: 10000000,
+  liquidity: 8620000,
+  mc: 922340000,
+  v24hChangePercent: -2.55,
+  v24hUSD: 0.00000009,
+};
+
+export const transactionsMockData = [
+  {
+    txHash: 'svTZ3o5j7GDsk1EfkXZjEQnV1kirqq48YhS29HyfqFkGUiSzosHRNQaQTPNovP3rbDbV3QrkFQh4GzdESEyRw6s',
+    blockNumber: 284733408,
+    blockTime: '2024-08-20T10:44:26+00:00',
+    status: true,
+    from: '66YZZejVBupBnMwSEqTaCkAMwPacpPzP41GSEst55Kgz',
+    to: 'TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA',
+    fee: 15000,
+    mainAction: 'send',
+    solAmount: 1,
+    tokenAmount: 123.123123,
+    tokenDecimals: 5,
+  },
+  {
+    txHash: 'svTZ3o5j7GDsk1EfkXZjEQnV1kirqq48YhS29HyfqFkGUiSzosHRNQaQTPNovP3rbDbV3QrkFQh4GzdESEyRw6s',
+    blockNumber: 284733108,
+    blockTime: '2024-08-20T8:44:26+00:00',
+    status: true,
+    from: '66YZZejVBupBnMwSEqTaCkAMwPacpPzP41GSEst55Kgz',
+    to: 'TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA',
+    fee: 15000,
+    mainAction: 'send',
+    solAmount: 1,
+    tokenAmount: 123.123123,
+    tokenDecimals: 5,
+  },
+];
